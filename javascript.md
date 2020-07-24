@@ -40,11 +40,13 @@ The attempt to access age is not possible outside of  _if_ bcs age was **block s
 
  they are unchangeable it is not recommended to use this for object values bcs those can be changed but the variable cant be **reassigned**  
 
-`const names = ['filus','fall'];`
+```javascript
+const names = ['filus','fall'];
 
-`names[2] = "rams";`
+names[2] = "rams";
 
-`names = []  //not defined`
+names = []  //not defined
+```
 
 
 
